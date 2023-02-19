@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    display: grid;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* TEXT BOX */
+
+.text_valor{
+    margin-top: 5rem;
+    width: 50rem;
+    padding: 1rem;
+    padding-left: 2rem;
+    border-radius: 50px;
+    border: 2px solid #999;
+    font-family: inherit;
+}
+
+/* RESULTADO PESQUISA */
+
+.container{
+    width: 128rem;
+    height: 60rem;
+    display: grid;
+    justify-content: center;
+}
+
+.text-content{
+    width:128rem;
+    height: 10rem;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.parcelamentos{
+    width: 120rem;
+    height: 40rem;
+    display: flex;
+    gap: 4rem;
+    justify-content: flex-end;
+}
+
+.valores{
+    width: 25rem;
+    height: 40rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 15rem 25rem;
+    border-radius: 15px;
+    box-shadow: 10px 15px 15px 5px #f5f5f5;
+}
+
+.total_valor{
+    background-color: #f00;
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    font-size: 14px;
+    position: relative;
+}
+
+.span_entrada{
+    font-size: 24px;
+}
+
+.propostas{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 16px;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.p_text{
+    text-transform: uppercase;
+}
+
+.valores_propostas{
+    display: grid;
+    gap: 3rem;
+}
+
+.parcelas{
+    font-weight: 600;
+}
+
+.entrada_70::before{
+    content: 'Melhor preço';
+    position:absolute;
+    top: 25px;
+    left: -30px;
+    transform: rotate(-45deg);
+    padding: 0.5rem 2rem;
+    background-color: white;
+    color: #f00;
+    font-weight: 700;
+    font-family: inherit;
+}
