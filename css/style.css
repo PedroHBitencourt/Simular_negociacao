@@ -102,16 +102,3 @@ body{
 .parcelas{
     font-weight: 600;
 }
-
-.entrada_70::before{
-    content: 'Melhor preço';
-    position:absolute;
-    top: 25px;
-    left: -30px;
-    transform: rotate(-45deg);
-    padding: 0.5rem 2rem;
-    background-color: white;
-    color: #f00;
-    font-weight: 700;
-    font-family: inherit;
-}
